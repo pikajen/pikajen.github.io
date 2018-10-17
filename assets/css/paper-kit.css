@@ -1940,9 +1940,12 @@ textarea.form-control {
   float: right;
 }
 .navbar .navbar-brand {
+  border-style: solid;
+  border-color: white;
+  border-radius: 40px;
   font-weight: 600;
   margin: 5px 0px;
-  padding: 20px 15px;
+  padding: 25px 15px;
   font-size: 14px;
   color: #66615B;
   text-transform: uppercase;
@@ -2530,10 +2533,10 @@ textarea.form-control {
   margin-top: 5px;
 }
 .card-profile .card-avatar {
-  max-width: 120px;
-  max-height: 120px;
   margin: -60px auto 0;
-  border-radius: 50%;
+  border-radius: 20%;
+  max-height: 300px;
+  max-width: 300px;
   overflow: hidden;
 }
 .card-profile .card-avatar img {
@@ -5930,4 +5933,25 @@ textarea.form-control {
 }
 .following img {
   max-width: 70px;
+}
+
+.icon {
+  opacity: 0.5;
+  filter:alpha(opacity=50);
+}
+
+.icon:hover{
+  opacity: 1.0;
+  filter:alpha(opacity = 100);
+  cursor:pointer;
+}
+
+.list-icons {
+    font-size: 3rem;
+    color: #D30000;
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
 }
