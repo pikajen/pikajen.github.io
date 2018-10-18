@@ -1940,9 +1940,9 @@ textarea.form-control {
   float: right;
 }
 .navbar .navbar-brand {
-  border-style: solid;
-  border-color: white;
-  border-radius: 40px;
+ /* border-style: solid;
+  border-color: white;*/
+/*  border-radius: 40px;*/
   font-weight: 600;
   margin: 5px 0px;
   padding: 25px 15px;
