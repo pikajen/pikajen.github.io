@@ -5935,12 +5935,13 @@ textarea.form-control {
   max-width: 70px;
 }
 
-.icon {
-  opacity: 0.5;
-  filter:alpha(opacity=50);
+
+.icon-clickable {
+    opacity: 0.5;
+    filter:alpha(opacity=50);
 }
 
-.icon:hover{
+.icon-clickable:hover{
   opacity: 1.0;
   filter:alpha(opacity = 100);
   cursor:pointer;
