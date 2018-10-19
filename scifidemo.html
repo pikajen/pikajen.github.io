@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Sci-Fi Demo</title>
+    <link rel="shortcut icon" href="SciFiDemo/TemplateData/favicon.ico">
+    <link rel="stylesheet" href="SciFiDemo/TemplateData/style.css">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/paper-kit.css?v=2.1.0" rel="stylesheet"/>
+    <link href="assets/css/demo.css" rel="stylesheet" />
+    <script src="SciFiDemo/TemplateData/UnityProgress.js"></script>  
+    <script src="SciFiDemo/Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "SciFiDemo/Build/webGL.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">Sci-Fi Demo</div>
+      </div>
+      <div class="instructions">
+        <br>
+        <h3> Objective </h3>
+        Search for a coin to buy a weapon from the shop!
+        <br>
+        <br>
+        <h3> Controls </h3>
+        <div class="row" style="margin-left: 0px">
+          <div class="control-block">
+            <p>
+              Movement: WASD <br>
+              Action (Collect/Buy): E <br>
+            </p>
+          </div>
+          <div class="control-block">
+            <p>
+              Shoot: Left Click <br>
+              Reload: R <br>
+            </p>
+          </div>
+        </div>
+    </div>
+    </div>
+  </body>
+</html>
